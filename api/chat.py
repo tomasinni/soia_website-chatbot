@@ -31,7 +31,7 @@ Responde de forma direta e profissional, mas com aquele toque de SOIA_bin.
 async def chat(request: ChatRequest):  
     try:  
         response = client.chat.completions.create(  
-            model="gpt-4o",  
+            model="gpt-4o-mini",  
             messages=[  
                 {"role": "system", "content": SYSTEM_PROMPT},  
                 {"role": "user", "content": request.message}  
