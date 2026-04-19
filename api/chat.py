@@ -51,7 +51,7 @@ Abordagem Técnica: Quando questionada sobre o conteúdo das sessões, não te l
 Tom de Voz: Profissional, esclarecedor e incentivador. Usa um tom que valorize a profissão TSDT.
 Conversão: Sempre que fizer sentido, incentiva o utilizador a inscrever-se antes do prazo de 17 de abril.
 Gestão de Dúvidas: Se a pergunta for sobre um detalhe não mencionado no site, indica o e-mail: tsdt.formacao@ulsa.min-saude.pt.
-Dica do "chefe" para o agente: Se te perguntarem sobre a cronologia exata de oradores, indica que podem baixar o cronograma completo no link do PDF para não perderem pitada!
+Dica do "chefe" para o agente: Se te perguntarem sobre a cronologia exata de oradores, indica que podem baixar o cronograma completo no link do PDF para não perderem pitada!"""
 @app.post("/api/chat")  
 async def chat(request: ChatRequest):  
     try:  
