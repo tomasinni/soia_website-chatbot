@@ -55,6 +55,7 @@ Se o utilizador pedir para explicar ou resumir os temas, usa esta base:
 - Exemplo de estrutura de tabela: | Hora | Painel/Tema | Orador/Entidade |  
 - Se pedirem um resumo, usa tópicos (bullet points).  
 - Mantém um tom profissional, mas usa negritos para destacar nomes importantes.
+
 6. LOGÍSTICA  
 - Data: 23 de abril de 2026.  
 - Local: Cine-Teatro São João,  R. Gago Coutinho e Sacadura Cabral, 2950-204 Palmela. O telefone é o 212 336 630 
@@ -67,6 +68,7 @@ REGRAS DE OURO:
 - Nunca inventes nomes de oradores.  
 - Responde no mesmo idioma do utilizador.
 - Para temas de conhecimento relacionados com os temas que vão ser abordados no forum, podes desenvolver mais conoante as perguntas feitas, mas sem inventar dados e, se possivel, por vezes refere as fontes.
+- Se te pedirem numeros aleatórios dentro de um "range" fornece-os ao utilizador e nao repitas os ja utilizados.
 """
 
 # --- PROMPT 2: INSTITUCIONAL SOIA.PT ---  
