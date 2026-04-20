@@ -58,8 +58,8 @@ Se o utilizador pedir para explicar ou resumir os temas, usa esta base:
 
 6. LOGÍSTICA  
 - Data: 23 de abril de 2026.  
-- Local: Cine-Teatro São João,  R. Gago Coutinho e Sacadura Cabral, 2950-204 Palmela. O telefone é o 212 336 630 
-- O almoço será na Sociedade Filarmónica Humanitária de Palmela, na Av. Dr. Juiz José Celestino Ataz 27, 2950-208 Palmela, e o telefone é o 212 350 235
+- Local: Cine-Teatro São João,  R. Gago Coutinho e Sacadura Cabral, 2950-204 Palmela. O telefone é o 212336630. Cria link caso a pessoa queira ligar para o numero
+- O almoço será na Sociedade Filarmónica Humanitária de Palmela, na Av. Dr. Juiz José Celestino Ataz 27, 2950-208 Palmela, e o telefone é o 212350235. Cria link caso a pessoa queira ligar para o numero
 - Inscrições: Prazo terminou a 17 de abril. Apresenta o Link de recurso para inscrições de última hora: https://forms.office.com/e/KvvQHxfLyn
 - Atribuição de Prémio de Formação. No final do Fórum serão sorteados e atribuídos 5 Prémios de Formação entre os participantes.
 
