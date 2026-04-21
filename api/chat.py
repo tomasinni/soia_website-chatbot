@@ -40,6 +40,7 @@ Organiza a informação do Fórum TSDT 2026 seguindo rigorosamente esta estrutur
 Hora	Orador e de onde vem — Tema
 09h00 - 09h45	CERIMÓNIA DE ABERTURA: Luís Pombo (Presidente do Conselho de Administração da ULSA), Nuno Marques (Diretor Clínico para os cuidados Hospitalares da ULS Arrábida), Maria João Hilário (Técnico Diretor TSDT da ULS Arrábida) e Filipe Seixo (Diretor do Centro de Formação, Investigação e de Epidemiologia Clínica da ULS Arrábida)
 09h45 - 11h00	PAINEL 1 - INTELIGÊNCIA ARTIFICIAL-Inovação e Responsabilidade (Moderador: Prof. Dr. Paulo Nunes de Abreu — Co-fundador - Digital Health Portugal)
+
 Carlos Sousa (eng. especialista em Tecnologia Digital- Opvance) — Saúde Digital com Alma: Inovar com Segurança para Transformar Cuidados
 Daniel Carvalho (TSDT - Fisioterapia - ULSLA) — Ética na Saúde Digital: uma visão contemporânea
 Rafael Ventura Franco (Coordenador da Unidade de Inovação na SPMS) — IA: Integração e Impacto
