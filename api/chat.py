@@ -35,14 +35,89 @@ Sempre que perguntarem quem organiza, refere estes nomes:
 - Jorge Lameirinha (TSDT Coordenador Ortóptica – ULSA)    
 - Célia Rufino (TSDT Coordenadora Saúde Ambiental – ULSA)
 
-3. PROGRAMA COMPLETO (HORÁRIOS E ORADORES)    
-- 08h30: Abertura.    
-- 09h00: CERIMÓNIA DE ABERTURA. Moderador: Henrique Martins (Digital Health Portugal).    
-- 09h45: PAINEL 1 - INTELIGÊNCIA ARTIFICIAL. Oradores: Sérgio Ferreira (Opvance) e Ana Sofia Ferreira (ULSLA - Ética na Saúde Digital).    
-- 11h30: PAINEL 2 - CONSELHO TÉCNICO. Oradores: Tiago Silva (Tec2Med), João Silva (AuroraMed), António Almeida (Ex-HSB), Filomena Cardoso (ULS S. José) e Maria José Costa (ULS Arrábida).    
-- 12h30: ALMOÇO (Sociedade Filarmónica Humanitária de Palmela).    
-- 14h10: PAINEL 3 - EVIDÊNCIA E PRÁTICA. Moderadora: Isabel Santos. Oradores: Duarte Santos (ULSAS), Pedro Silva (ULSA), Margarida Santos (ULSAR) e Ricardo Jorge (BTL).    
-- 16h00: PAINEL 4 - INDÚSTRIA. Moderador: Carlos Costa (Egas Moniz). Oradores: Catarina Lopes (Roche), Henrique Soares (Lispolis), Marta Silva (Colgate) e Ana Oliveira (Nestlé).
+09h00 - 09h45 | CERIMÓNIA DE ABERTURA
+Luís Pombo (Presidente do Conselho de Administração da ULSA)
+Nuno Marques (Diretor Clínico para os cuidados Hospitalares da ULS Arrábida)
+Maria João Hilário (Técnico Diretor TSDT da ULS Arrábida)
+Filipe Seixo (Diretor do Centro de Formação, Investigação e de Epidemiologia Clínica da ULS Arrábida)
+
+09h45 - 11h00 | PAINEL 1 - INTELIGÊNCIA ARTIFICIAL
+Inovação e Responsabilidade
+Moderador:Prof. Dr. Paulo Nunes de Abreu (Co-fundador - Digital Health Portugal)
+ temas e oradores:
+
+-Carlos Sousa Saúde Digital com Alma: Inovar com Segurança para Transformar Cuidados -eng. especialista em Tecnologia Digital- Opvance
+
+-Ética na Saúde Digital: uma visão contemporânea
+Daniel Carvalho (TSDT - Fisioterapia - ULSLA)
+
+-IA: Integração e Impacto
+Rafael Ventura Franco (Coordenador da Unidade de Inovação na SPMS)
+
+-Multidisciplinary Data Integration - Preventing to Save More Lives
+Miguel Angelo Louro Barbosa (Eng. Biomédico e Cofundador - Tec2Med Global)
+
+-Liderar com Algoritmos: A Nova Era da Inovação Responsável
+Sérgio Menezes Pina (CEO AuroraMed)
+
+11:00 ás 11:30 - Networking
+
+-11h30 - 12h30 | PAINEL 2 - O CONSELHO TÉCNICO NA VALORIZAÇÃO DOS TSDT
+Moderador: Cândido Teixeira (Ex. Coordenador do Serviço de Medicina Transfusicional do HSB)
+
+-Promoção dos TSDT – Proposta de Método de Seleção Baseado no Mérito
+Raquel Rodrigues dos Santos (TSDT Diretora dos CSP ULSAR)
+Rogério Nunes (TSDT - Coordenador - Saúde Ambiental - ULSLO)
+
+-Fortalecer a colaboração multidisciplinar: o papel dos TSDT na Inovação e Eficiência dos Serviços de Saúde
+Fernando Zorro (TSDT - Diretor - ULS S. José)
+
+-One Health. Uma Só Equipa
+Maria João Hilário (TSDT - Diretora - ULS Arrábida)
+
+12:30 ás 14:00 - almoço na sociedade Filarmónica Humanitária de Palmela
+14:14:10 - Momento Cultural
+
+14h10 - 16h00 | PAINEL 3 - DA EVIDÊNCIA À PRÁTICA CLÍNICA
+Boas Práticas em Saúde
+
+Moderadora: Rubina Moniz (TSDT - Coordenadora - Fisioterapia - ULSA)
+
+-Uma Vida Dedicada a Humanizar a Saúde Oral
+Sónia Sabino Silva (TSDT - Higiene Oral - ULSAR)
+
+-Literacia em Ergonomia na ULSEDV: Um Modelo Formativo no SNS
+Carla Maria Monteiro (TSDT - Fisioterapia - ULSEDV)
+
+-Auditoria, Compliance e Qualidade como Pontes Reais entre Teoria e Prática
+António Almeida (Diretor do Serviço de Auditoria Interna - ULSAS)
+
+-Conhecimento e Tecnologia vs Humanização: Fatalidade ou Desafio?
+Zelinda Castanheira (TSDT - Radiologia - ULSA)
+
+-Tecnologia como Forma de Humanizar a Saúde e as Terapias
+Rodrigo Silva (Especialista Clínico - BTL Portugal)
+
+-15:30 ás 16:00 - Networking
+
+16h00 - 17h00 | PAINEL 4 - INDÚSTRIA E TSDT
+Colaboração, Inovação e Impacto
+
+Moderador: Sérgio Valério (Egas Moniz School of Health and Science)
+
+-Programa de rastreio organizado do Cancro do Colo do Útero: O papel da triagem com dupla marcação imunohistoquímica p16/Ki-67
+Duarte Oliveira (Medical Affairs Manager, Roche Diagnostics, Portugal - Roche)
+
+-A Importância dos Dados no Ecossistema de Saúde
+Pedro Rebordão (Diretor promoção & inovação - Lispolis)
+
+Duraphat maior eficácia na prevenção da cárie
+Gabriela Dias (Scientific Affairs & Senior Education Specialist - Colgate)
+
+Desnutrição: um problema de saúde pública onde o tratamento se torna mais acessível ao doente?
+Filipa Caeitano (Medical Nutrition Specialist - Nestlé)
+
+17:00 ás 18:00 Conclusão do Fórum e sorteio e entrega de Prémios
 
 4. CAPACIDADE DE RESUMO E ANÁLISE (NOVA COMPETÊNCIA)  
 Se o utilizador pedir para explicar ou resumir os temas, usa esta base:  
