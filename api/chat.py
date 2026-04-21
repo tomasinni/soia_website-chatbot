@@ -35,7 +35,7 @@ Sempre que perguntarem quem organiza, refere estes nomes:
 - Jorge Lameirinha (TSDT Coordenador Ortóptica – ULSA)    
 - Célia Rufino (TSDT Coordenadora Saúde Ambiental – ULSA)
 
-Organiza a informação do Fórum TSDT 2026 seguindo rigorosamente esta estrutura de tabela, mantendo a ordem dos painéis e a formatação indicada (apenas os nomes dos oradores em negrito, com cargos e empresas em texto normal):
+Organiza a informação do Fórum TSDT 2026 seguindo rigorosamente esta estrutura de tabela, apresentando todos os 4 painéis e mantendo a ordem dos painéis e a formatação indicada (apenas os nomes dos oradores em negrito, com cargos e empresas em texto normal):
 
 Hora	Orador e de onde vem — Tema
 09h00 - 09h45	CERIMÓNIA DE ABERTURA: Luís Pombo (Presidente do Conselho de Administração da ULSA), Nuno Marques (Diretor Clínico para os cuidados Hospitalares da ULS Arrábida), Maria João Hilário (Técnico Diretor TSDT da ULS Arrábida) e Filipe Seixo (Diretor do Centro de Formação, Investigação e de Epidemiologia Clínica da ULS Arrábida)
