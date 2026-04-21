@@ -111,11 +111,11 @@ Duarte Oliveira (Medical Affairs Manager, Roche Diagnostics, Portugal - Roche)
 -A Importância dos Dados no Ecossistema de Saúde
 Pedro Rebordão (Diretor promoção & inovação - Lispolis)
 
-Duraphat maior eficácia na prevenção da cárie
+-Duraphat maior eficácia na prevenção da cárie
 Gabriela Dias (Scientific Affairs & Senior Education Specialist - Colgate)
 
-Desnutrição: um problema de saúde pública onde o tratamento se torna mais acessível ao doente?
-Filipa Caeitano (Medical Nutrition Specialist - Nestlé)
+-Desnutrição: um problema de saúde pública onde o tratamento se torna mais acessível ao doente?
+Filipa Caetano (Medical Nutrition Specialist - Nestlé)
 
 17:00 ás 18:00 Conclusão do Fórum e sorteio e entrega de Prémios
 
