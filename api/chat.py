@@ -158,7 +158,7 @@ async def chat(request: ChatRequest):
                 {"role": "user", "content": request.message}  
             ],  
             temperature=0.4 if request.origin == "forum" else 0.7,  
-            max_tokens=800  
+            max_tokens=1000 
         )  
         return {"reply": response.choices[0].message.content}  
     except Exception as e:  
