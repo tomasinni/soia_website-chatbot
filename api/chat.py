@@ -3,25 +3,25 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel    
 from openai import OpenAI    
 import os  
-from datetime import datetime  
+from datetime import datetime, timedelta, timezone # Ajustado para corrigir o fuso horário
 
 app = FastAPI()
 
 # Configuração CORS para permitir o teu site    
 app.add_middleware(    
-    CORSMiddleware,    
-    allow_origins=["*"],    
-    allow_credentials=True,    
-    allow_methods=["*"],    
-    allow_headers=["*"],    
+CORSMiddleware,    
+allow_origins=["*"],    
+allow_credentials=True,    
+allow_methods=["*"],    
+allow_headers=["*"],    
 )
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # Modelo de dados atualizado para aceitar a origem da página    
 class ChatRequest(BaseModel):    
-    message: str    
-    origin: str = "general"  # Pode ser "forum" ou "general"
+message: str    
+origin: str = "general"  # Pode ser "forum" ou "general"
 
 # --- PROMPT 1: FÓRUM TSDT 2026 ---    
 SYSTEM_PROMPT_FORUM = """    
@@ -148,31 +148,32 @@ VENDA CONSULTIVA:
 
 @app.post("/api/chat")    
 async def chat(request: ChatRequest):    
-    try:    
-        # Escolha do Prompt baseada na origem enviada pelo site    
-        current_prompt = SYSTEM_PROMPT_FORUM if request.origin == "forum" else SYSTEM_PROMPT_SOIA    
-          
-        # --- LÓGICA DINÂMICA ---  
-        now = datetime.now()  
-        info_extra = (  
-            f"\n\n[CONTEXTO DO SISTEMA]\n"  
-            f"Hoje é dia {now.day} de abril de 2026. Hora atual: {now.strftime('%H:%M')}.\n"  
-            f"Previsão Tempo Palmela amanhã (24/04): Máx 22°C, Mín 11°C, céu nublado, sem chuva, vento fraco NW."  
-        )
+try:    
+    # Escolha do Prompt baseada na origem enviada pelo site    
+    current_prompt = SYSTEM_PROMPT_FORUM if request.origin == "forum" else SYSTEM_PROMPT_SOIA    
+      
+    # --- LÓGICA DINÂMICA COM AJUSTE DE FUSO HORÁRIO (PORTUGAL UTC+1) ---  
+    # datetime.now(timezone(timedelta(hours=1))) garante a hora certa de Lisboa em Abril  
+    now = datetime.now(timezone(timedelta(hours=1)))  
+    info_extra = (  
+        f"\n\n[CONTEXTO DO SISTEMA]\n"  
+        f"Hoje é dia {now.day} de abril de 2026. Hora atual em Portugal: {now.strftime('%H:%M')}.\n"  
+        f"Previsão Tempo Palmela amanhã (24/04): Máx 22°C, Mín 11°C, céu nublado, sem chuva, vento fraco NW."  
+    )
 
-        response = client.chat.completions.create(    
-            model="gpt-4o-mini",    
-            messages=[    
-                {"role": "system", "content": current_prompt + info_extra},    
-                {"role": "user", "content": request.message}    
-            ],    
-            temperature=0.4 if request.origin == "forum" else 0.7,    
-            max_tokens=4000  
-        )    
-        return {"reply": response.choices[0].message.content}    
-    except Exception as e:    
-        return {"reply": f"Valter, ocorreu um erro na Raquel: {str(e)}"}
+    response = client.chat.completions.create(    
+        model="gpt-4o-mini",    
+        messages=[    
+            {"role": "system", "content": current_prompt + info_extra},    
+            {"role": "user", "content": request.message}    
+        ],    
+        temperature=0.4 if request.origin == "forum" else 0.7,    
+        max_tokens=4000  
+    )    
+    return {"reply": response.choices[0].message.content}    
+except Exception as e:    
+    return {"reply": f"Upps, ocorreu um erro na Assistente: {str(e)}"}
 
 @app.get("/api/chat")    
 async def health():    
-    return {"status": "A Raquel está pronta em ambas as frentes!"}  
+return {"status": "A Assistente está pronta em ambas as frentes!"}  
