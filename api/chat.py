@@ -9,19 +9,19 @@ app = FastAPI()
 
 # Configuração CORS para permitir o teu site    
 app.add_middleware(    
-CORSMiddleware,    
-allow_origins=["*"],    
-allow_credentials=True,    
-allow_methods=["*"],    
-allow_headers=["*"],    
+    CORSMiddleware,    
+    allow_origins=["*"],    
+    allow_credentials=True,    
+    allow_methods=["*"],    
+    allow_headers=["*"],    
 )
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # Modelo de dados atualizado para aceitar a origem da página    
 class ChatRequest(BaseModel):    
-message: str    
-origin: str = "general"  # Pode ser "forum" ou "general"
+    message: str    
+    origin: str = "general"  # Pode ser "forum" ou "general"
 
 # --- PROMPT 1: FÓRUM TSDT 2026 ---    
 SYSTEM_PROMPT_FORUM = """    
@@ -152,19 +152,18 @@ async def chat(request: ChatRequest):
         # Escolha do Prompt baseada na origem enviada pelo site    
         current_prompt = SYSTEM_PROMPT_FORUM if request.origin == "forum" else SYSTEM_PROMPT_SOIA    
           
-        # --- LINHAS ADICIONADAS PARA DATA, HORA E TEMPO (CONFORME PEDIDO) ---  
+        # --- LÓGICA DINÂMICA ---  
         now = datetime.now()  
         info_extra = (  
-            f"\n\n[CONTEXTO ATUALIZADO DO SISTEMA]\n"  
+            f"\n\n[CONTEXTO DO SISTEMA]\n"  
             f"Hoje é dia {now.day} de abril de 2026. Hora atual: {now.strftime('%H:%M')}.\n"  
-            f"Previsão Tempo Palmela amanhã (24/04): Máx 22°C, Mín 11°C, céu nublado, sem chuva (0%), vento fraco NW."  
-        )  
-        # -------------------------------------------------------------------
+            f"Previsão Tempo Palmela amanhã (24/04): Máx 22°C, Mín 11°C, céu nublado, sem chuva, vento fraco NW."  
+        )
 
         response = client.chat.completions.create(    
             model="gpt-4o-mini",    
             messages=[    
-                {"role": "system", "content": current_prompt + info_extra}, # Injeção de contexto dinâmico  
+                {"role": "system", "content": current_prompt + info_extra},    
                 {"role": "user", "content": request.message}    
             ],    
             temperature=0.4 if request.origin == "forum" else 0.7,    
